@@ -90,6 +90,7 @@ h2 {
   margin-bottom: 16px;
 }
 
+.dot-black,
 .dot-brown,
 .dot-beige {
   height: 20px;
@@ -98,8 +99,13 @@ h2 {
   display: inline-block;
 }
 
-.dot-brown {
+.dot-black {
   background-color: #0d0d0d;
+  margin-right: 10px;
+}
+
+.dot-brown {
+  background-color: #593e2e;
   margin-right: 10px;
 }
 
@@ -143,12 +149,12 @@ i {
 
 /* media query */
 @media only screen and (max-width: 992px) {
-  .oaklogo {
-    width: 90px;
-  }
-
   .navbar-toggler {
     margin: 30px 0;
+  }
+
+  .oaklogo {
+    width: 90px;
   }
 }
 
