@@ -131,6 +131,15 @@ i {
   color: var(--btn-background-hover);
 }
 
+.soMe-text {
+  margin-bottom: 0;
+}
+
+.copyright {
+  margin-bottom: 0;
+  font-size: 0.7em;
+}
+
 /* media query */
 @media only screen and (max-width: 992px) {
   .oaklogo {
