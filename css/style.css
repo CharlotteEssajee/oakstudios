@@ -13,7 +13,6 @@
 /* navbar */
 .navbar,
 .container {
-  max-width: 900px;
   margin: auto;
 }
 
@@ -130,6 +129,31 @@ button {
   text-align: left;
 }
 
+/* hero sale */
+.wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.maplewood {
+  height: 400px;
+  object-fit: cover;
+}
+
+.saletext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0 25px;
+}
+
+.saletext h3 {
+  padding-top: 40px;
+}
+
 /* footer */
 i {
   font-size: 1.5em;
@@ -181,6 +205,10 @@ i {
 
   .last-btn {
     margin-bottom: 40px;
+  }
+
+  .introduction {
+    padding: 0 40px;
   }
 }
 
