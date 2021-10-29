@@ -1,0 +1,62 @@
+/* navbar */
+.navbar,
+.container {
+  margin: auto;
+}
+
+.oaklogo {
+  width: 150px;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar nav {
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  right: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* footer */
+i {
+  font-size: 1.5em;
+  padding: 0 20px 20px 20px;
+  margin-top: 30px;
+  color: var(--btn-background-hover);
+}
+
+.soMe-text {
+  margin-bottom: 0;
+}
+
+.copyright {
+  margin-bottom: 0;
+  font-size: 0.7em;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("/img/white_sand.png");
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-toggler {
+    margin: 30px 0;
+  }
+
+  .oaklogo {
+    width: 90px;
+  }
+}

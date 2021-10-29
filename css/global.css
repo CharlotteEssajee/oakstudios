@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-text-color);
+}
+
+:root {
+  --main-text-color: #0d0d0d;
+  --btn-background: #38460b;
+  --btn-background-hover: #6f7545;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  padding: 50px 0 20px 0;
+}
+
+a {
+  color: var(--main-text-color);
+}
+
+.btn {
+  background-color: var(--btn-background);
+  border: var(--btn-background);
+}
+
+.btn:hover {
+  background-color: var(--btn-background-hover);
+}
+
+.card {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  margin: 40px 0;
+}
