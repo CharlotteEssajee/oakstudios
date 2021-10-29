@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="971.077" height="907.144" viewBox="0 0 971.077 907.144">
+  <g id="Group_2" data-name="Group 2" transform="translate(-264.462 -283.928)">
+    <g id="verticals" transform="translate(502.873 583.072)">
+      <line id="Line_5" data-name="Line 5" y1="608" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+      <line id="Line_6" data-name="Line 6" y1="608" transform="translate(250)" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+      <line id="Line_7" data-name="Line 7" y1="608" transform="translate(500)" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+    </g>
+    <g id="Path_2" data-name="Path 2" transform="translate(395.645 583.072)" fill="none">
+      <path d="M-131.183,0H839.894L741.7,608H-29.955Z" stroke="none"/>
+      <path d="M -72.17047119140625 49.99993896484375 L 12.4085693359375 557.9999389648438 L 699.1288452148438 557.9999389648438 L 781.1707153320312 49.99993896484375 L -72.17047119140625 49.99993896484375 M -131.1834106445312 -6.103515625e-05 L 839.8936157226562 -6.103515625e-05 L 741.7017822265625 607.9999389648438 L -29.95489501953125 607.9999389648438 L -131.1834106445312 -6.103515625e-05 Z" stroke="none" fill="#0d0d0d"/>
+    </g>
+    <g id="horizontals" transform="translate(322.974 802.072)">
+      <line id="Line_3" data-name="Line 3" x2="859.715" transform="translate(0)" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+      <line id="Line_4" data-name="Line 4" x2="775.715" transform="translate(46.5 169.5)" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+    </g>
+    <path id="Path_3" data-name="Path 3" d="M3856.172,376.4s112.9-291.152,237.9-291.152,262.1,291.152,262.1,291.152" transform="translate(-3353.299 223.682)" fill="none" stroke="#0d0d0d" stroke-width="50"/>
+  </g>
+</svg>
