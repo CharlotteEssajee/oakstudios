@@ -20,6 +20,10 @@ a {
   color: var(--main-text-color);
 }
 
+a:hover {
+  color: var(--main-text-color);
+}
+
 .btn {
   background-color: var(--btn-background);
   border: var(--btn-background);
