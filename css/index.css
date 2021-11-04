@@ -15,6 +15,12 @@
   padding-bottom: 30px;
 }
 
+.introduction {
+  max-width: 700px;
+  text-align: center;
+  display: inline-block;
+}
+
 /* main products */
 .container {
   text-align: center;

@@ -8,12 +8,27 @@
   --main-text-color: #0d0d0d;
   --btn-background: #38460b;
   --btn-background-hover: #6f7545;
+  --head-font: "Noto Serif", serif;
+  --subhead-font: "Work Sans", sans-serif;
+  --paragraph-font: "Montserrat", sans-serif;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2.5em !important;
   padding: 50px 0 20px 0;
+  font-family: var(--head-font);
+  font-size: 2em;
+}
+
+h2,
+h3 {
+  font-family: var(--subhead-font);
+  font-size: 2em;
+}
+
+.price {
+  font-size: 0.9em !important;
 }
 
 a {
@@ -24,9 +39,15 @@ a:hover {
   color: var(--main-text-color);
 }
 
+button {
+  font-family: var(--subhead-font) !important;
+  font-size: 1em;
+}
+
 .btn {
   background-color: var(--btn-background);
   border: var(--btn-background);
+  display: inline;
 }
 
 .btn:hover {
@@ -34,6 +55,22 @@ a:hover {
 }
 
 .card {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   margin: 40px 0;
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em !important;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.5em;
+  }
 }
