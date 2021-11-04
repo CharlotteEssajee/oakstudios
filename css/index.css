@@ -107,7 +107,7 @@ button {
 }
 
 .highlight {
-  color: var(--btn-background);
+  color: var(--highlight-text-color);
   font-family: var(--head-font);
 }
 

@@ -6,6 +6,7 @@
 
 :root {
   --main-text-color: #0d0d0d;
+  --highlight-text-color: #5a5e43;
   --btn-background: #38460b;
   --btn-background-hover: #6f7545;
   --head-font: "Noto Serif", serif;
